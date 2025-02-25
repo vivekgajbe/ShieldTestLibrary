@@ -12,11 +12,11 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "ShieldTestLibrary",
-            targets: ["ShieldTestSDK"]),
+            targets: ["ShieldTestFramework"]),
     ],
     targets: [
         // The destination of the framework you will obfuscate the code
-    .binaryTarget(name: "ShieldTestSDK", path: "./Sources/ShieldTestSDK.xcframework"),
+    .binaryTarget(name: "ShieldTestFramework", path: "./Sources/ShieldTestFramework.xcframework"),
 
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.

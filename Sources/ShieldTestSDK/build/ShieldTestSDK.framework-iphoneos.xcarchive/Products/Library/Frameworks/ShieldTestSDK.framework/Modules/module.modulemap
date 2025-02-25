@@ -1,6 +1,0 @@
-framework module ShieldTestSDK {
-  umbrella header "ShieldTestSDK.h"
-  export *
-
-  module * { export * }
-}
