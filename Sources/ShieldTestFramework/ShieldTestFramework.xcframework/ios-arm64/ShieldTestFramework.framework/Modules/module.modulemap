@@ -1,0 +1,6 @@
+framework module ShieldTestFramework {
+  umbrella header "ShieldTestFramework.h"
+  export *
+
+  module * { export * }
+}
